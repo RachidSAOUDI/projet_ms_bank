@@ -13,7 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class ComptebancaireDetailsDTO {
+public class CompteBancaireDetailsDTO {
     private String compteId;
     private double solde;
     private TypeCompte typeCompte;
