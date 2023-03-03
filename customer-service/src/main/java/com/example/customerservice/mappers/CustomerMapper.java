@@ -9,10 +9,11 @@ import org.springframework.stereotype.Service;
 public class CustomerMapper {
     private ModelMapper modelMapper=new ModelMapper();
 
-    public Customer entityToDTO(CustomerDTO customerDTO){
+    public Customer dtoToEntity(CustomerDTO customerDTO){
         return modelMapper.map(customerDTO, Customer.class);
     }
-    public CustomerDTO dtoToEntity(Customer customer){
+
+    public CustomerDTO entityToDTO(Customer customer){
         return modelMapper.map(customer, CustomerDTO.class);
     }
 }
