@@ -1,4 +1,4 @@
-package com.example.customerservice.exceptions;
+package ma.usmba.customerservice.exceptions;
 
 public record ErrorMessage(String errorMessage) {
 }

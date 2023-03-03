@@ -1,11 +1,11 @@
-package com.example.customerservice.services;
+package ma.usmba.customerservice.services;
 
-import com.example.customerservice.dtos.CustomerDTO;
-import com.example.customerservice.entities.Customer;
-import com.example.customerservice.exceptions.CustomerNotFoundException;
-import com.example.customerservice.exceptions.EmailAlreadyExistException;
-import com.example.customerservice.mappers.CustomerMapper;
-import com.example.customerservice.repositories.CustomerRepository;
+import ma.usmba.customerservice.dtos.CustomerDTO;
+import ma.usmba.customerservice.entities.Customer;
+import ma.usmba.customerservice.exceptions.CustomerNotFoundException;
+import ma.usmba.customerservice.exceptions.EmailAlreadyExistException;
+import ma.usmba.customerservice.mappers.CustomerMapper;
+import ma.usmba.customerservice.repositories.CustomerRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

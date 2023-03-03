@@ -1,7 +1,7 @@
-package com.example.customerservice.mappers;
+package ma.usmba.customerservice.mappers;
 
-import com.example.customerservice.dtos.CustomerDTO;
-import com.example.customerservice.entities.Customer;
+import ma.usmba.customerservice.dtos.CustomerDTO;
+import ma.usmba.customerservice.entities.Customer;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 

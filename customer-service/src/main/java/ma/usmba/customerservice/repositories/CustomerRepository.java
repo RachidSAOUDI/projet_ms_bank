@@ -1,6 +1,6 @@
-package com.example.customerservice.repositories;
+package ma.usmba.customerservice.repositories;
 
-import com.example.customerservice.entities.Customer;
+import ma.usmba.customerservice.entities.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

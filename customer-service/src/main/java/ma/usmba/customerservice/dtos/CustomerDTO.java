@@ -1,4 +1,4 @@
-package com.example.customerservice.dtos;
+package ma.usmba.customerservice.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

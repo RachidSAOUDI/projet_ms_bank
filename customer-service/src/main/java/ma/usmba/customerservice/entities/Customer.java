@@ -1,4 +1,4 @@
-package com.example.customerservice.entities;
+package ma.usmba.customerservice.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
