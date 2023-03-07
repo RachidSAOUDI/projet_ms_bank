@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/compte-service/compte-service.iml" filepath="$PROJECT_DIR$/compte-service/compte-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-service/config-service.iml" filepath="$PROJECT_DIR$/config-service/config-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/customer-service/customer-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/projet_ms_bank.iml" filepath="$PROJECT_DIR$/projet_ms_bank.iml" />
       <module fileurl="file://$PROJECT_DIR$/registration-service/registration-service.iml" filepath="$PROJECT_DIR$/registration-service/registration-service.iml" />

@@ -36,10 +36,10 @@ public class CustomerServiceImpl implements CustomerService {
     public List<CustomerDTO> allCustomers() {
         List<Customer> customerList=customerRepository.findAll();
         List<CustomerDTO> result=customerList.stream().map(customerMapper::entityToDTO).collect(Collectors.toList());
-
-        List<CustomerDTO> customerDTOS=new ArrayList<>();
+        
         // ou bien
-/*        for (Customer customer:customerList){
+/*     List<CustomerDTO> customerDTOS=new ArrayList<>();
+       for (Customer customer:customerList){
             CustomerDTO customerDTO=customerMapper.entityToDTO(customer);
             customerDTOS.add(customerDTO);
         }
