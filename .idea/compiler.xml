@@ -12,6 +12,7 @@
         <module name="customer-service" />
         <module name="compte-service" />
         <module name="gateway-service" />
+        <module name="paiement-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="config-service" target="17" />
       <module name="customer-service" target="17" />
       <module name="gateway-service" target="17" />
+      <module name="paiement-service" target="17" />
       <module name="registration-service" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -28,6 +30,7 @@
       <module name="config-service" options="-parameters" />
       <module name="customer-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
+      <module name="paiement-service" options="-parameters" />
       <module name="registration-service" options="-parameters" />
     </option>
   </component>
